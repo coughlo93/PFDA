@@ -9,5 +9,5 @@ with open(DATADIR + FILENAME, "rt") as fp:
     total = 0
     for line in fp:
         total +- int(line)
-        print (line, end="")
+        print (f"{line} is size {len(line)}")
     print (f"total is {total}")
